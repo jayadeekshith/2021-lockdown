@@ -7,7 +7,7 @@ using namespace std;
 int main() {
 string s;
 cin>>s;
-int count,n=s.length();
+int count2=0,count,n=s.length();
 for(int j=0;j<n;j++){
     count=0;
 for(int i=0;i<n;i++){
@@ -15,13 +15,18 @@ for(int i=0;i<n;i++){
         count++;
     }
 }
-    if(count==s[j]-'0' && j>0){
-        cout<<s[j];
-
-        continue;
+    if(count==s[j]-'0'){
+if(j>0)
+count2++;
+continue;
     }
     else cout<<"no";
     break;
 }
+ if(count2==n-1)
+    for(int i=1;i<n;i++){
+        cout<<s[i];
+    }
+
     
 }

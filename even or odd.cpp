@@ -1,4 +1,4 @@
-#way 1 using ~
+//way 1 using ~
 
 #include<bits/stdc++.h>
 #define ll long long int
@@ -15,7 +15,7 @@ return 0;
     
 }
 
-#way 2 using %2==0
+//way 2 using %2==0
 
 #include<bits/stdc++.h>
 #define ll long long int
@@ -37,7 +37,8 @@ return 0;
 
 
 
-#way 3 using +=2
+//way 3 using +=2
+
 #include<bits/stdc++.h>
 #define ll long long int
 using namespace std;
